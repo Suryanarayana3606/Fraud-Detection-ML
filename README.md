@@ -1,29 +1,31 @@
-# 🛒 Customer Segmentation (Unsupervised Learning)
+# 🛡️ Credit Card Fraud Detection (Supervised Learning)
 
 ## 📖 Project Overview
-Businesses often need to segment customers for better marketing strategies.  
-In this project, I applied **unsupervised learning (K-Means Clustering)** to group mall customers into meaningful segments.  
+Credit card fraud is a major issue in financial transactions.  
+In this project, I built a **supervised machine learning model** to detect fraudulent transactions.  
+The dataset is highly **imbalanced** (only ~0.17% fraud), making it a real-world ML challenge.  
 
 ---
 
 ## 🎯 Objectives
-- Use **K-Means clustering** to group customers  
-- Apply **Elbow Method** to find optimal clusters  
-- Visualize clusters for insights  
+- Detect fraudulent transactions using supervised learning  
+- Handle imbalanced data using **SMOTE**  
+- Evaluate using **precision, recall, F1-score, ROC-AUC**  
 
 ---
 
 ## 📊 Dataset
-- Source: [Mall Customers Dataset](https://gist.github.com/pravalliyaram/5c05f43d2351249927b8a3f3cc3e5ecf)
-- 200 customers  
-- Features: Age, Gender, Annual Income, Spending Score  
+- Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
+- 284,807 transactions with 31 features  
+- Features are anonymized (PCA-transformed)  
 
 ---
 
 ## ⚙️ Tech Stack
 - Python  
 - Pandas, NumPy  
-- Scikit-learn (KMeans)  
-- Matplotlib, Seaborn  
+- Scikit-learn  
+- Imbalanced-learn (SMOTE)  
+- Matplotlib  
 
 
